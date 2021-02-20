@@ -13,9 +13,9 @@ import WelcomeScreen from './screens/WelcomeScreen';
  
 
 const switchNavigator = createSwitchNavigator(
-  { LoginScreen:
-    {screen: LoginScreen}, TabNavigator:
-    {screen: TabNavigator} }) 
+  { WelcomeScreen:
+    {screen:WelcomeScreen}, SuggestionScreen:
+    {screen: SuggestionScreen} }) 
   const AppContainer = createAppContainer(switchNavigator);
 
 
